@@ -1,8 +1,16 @@
+import {BrowserRouter, Route, Routes} from "react-router";
+import Home from "./pages/Home.jsx";
+import AppLayout from "./pages/AppLayout.jsx";
+
 function App() {
     return (
-        <div className={"w-full h-screen bg-[rgba(54,54,56,30%)]"}>
-
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route element={<AppLayout/>}>
+                    <Route path="/" element={<Home />}/>
+                </Route>
+            </Routes>
+        </BrowserRouter>
     );
 }
 
