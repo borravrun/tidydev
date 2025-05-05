@@ -17,14 +17,9 @@
         "height": 600,
         "skipTaskbar": true,
         "decorations": false,
-        "transparent": true,
         "resizable": false,
         "center": true,
-        "alwaysOnTop": true,
-        "windowEffects": {
-          "effects": ["acrylic"],
-          "state": "active"
-        }
+        "alwaysOnTop": true
       }
     ],
     "security": {
