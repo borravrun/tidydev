@@ -4,7 +4,7 @@ import Footer from "../components/Footer.jsx";
 
 function AppLayout() {
     return (
-        <div className={'w-full h-screen bg-[#363638] overflow-y-auto [&::-webkit-scrollbar]:w-2'}>
+        <div className={'w-full h-screen bg-[#363638] overflow-hidden [&::-webkit-scrollbar]:w-2'}>
             <InputBox/>
             <div className={'w-full h-full mt-12 py-4'}>
                 <Outlet/>
