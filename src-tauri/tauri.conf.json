@@ -13,8 +13,8 @@
     "windows": [
       {
         "title": "tidydev",
-        "width": 980,
-        "height": 612,
+        "width": 600,
+        "height": 400,
         "skipTaskbar": true,
         "decorations": false,
         "resizable": false,

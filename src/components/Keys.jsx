@@ -1,5 +1,3 @@
-import React from "react";
-
 function Keys({ keys }) {
     return (
         <div className="flex gap-2">
